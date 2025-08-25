@@ -1,0 +1,23 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1{
+    font-family: 3.5rem;
+}
+.options{
+    margin-bottom: 30px;
+}
+.options button{
+    font-size: 8rem;
+    min-width: 180px;
+    margin: 0 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+}
+.options button:hover{
+    background-color: burlywood;
+}

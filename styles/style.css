@@ -49,3 +49,18 @@ h1{
 .draw-animation {
     animation: draw 0.5s ease-in-out;
 }
+/*restart button*/
+#restart-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.15s ease;
+}
+#restart-button:hover{
+    background-color: darkgreen;
+}

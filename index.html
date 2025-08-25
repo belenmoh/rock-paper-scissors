@@ -8,14 +8,23 @@
 </head>
 <body>
     <h1>Rock - Paper - Scissors</h1>
+
+    <div class="scoreboard">
+        <span id="user-score">0</span> : <span id="computer-score">0</span>
+    </div>
+
     <div class="options">
         <button>👊</button>
         <button>🤚</button>
         <button>✂</button>
     </div>
-    <div class="playerdisplay">Player: </div>
-    <div class="computerdisplay">Computer: </div>
-    <div class="result">Result: </div>
+
+    <div class="playerdisplay">PLAYER: <span id="player-choice"></span></div>
+    <div class="computerdisplay">COMPUTER: <span id="computer-choice"></span></div>
+    <div class="result">Result: <br><span id="result-message">Make your choice!</span></div>
+
+    <button id="restart-button">Restart Game</button>
+
     <script>src="script.js"</script>
 </body>
 </html>
